@@ -25,5 +25,4 @@
     ~/.zshrc:
 
 - shell:
-  - mkdir -p ~/.rtorrent/session ~/.rtorrent/watch ~/.rtorrent/downloads
   - git update-submodules # after linking ~/.gitconfig

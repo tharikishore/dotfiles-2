@@ -21,8 +21,6 @@
     ~/.tmux.conf:
     ~/.vim:
     ~/.vimrc:
-    ~/.zsh:
-    ~/.zshrc:
 
 - shell:
   - git update-submodules # after linking ~/.gitconfig

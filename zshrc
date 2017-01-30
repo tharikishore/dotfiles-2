@@ -31,3 +31,7 @@ source ~/.zsh/plugins_after.zsh
 if [ -f ~/.zshrc_local_after ]; then
     source ~/.zshrc_local_after
 fi
+
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="/home/harikishore/.sdkman"
+[[ -s "/home/harikishore/.sdkman/bin/sdkman-init.sh" ]] && source "/home/harikishore/.sdkman/bin/sdkman-init.sh"
